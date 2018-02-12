@@ -25,7 +25,7 @@
 %%%%%%% Write a CE report
 \DeclareOption{CMPE}{
 	\newcommand{\KGCOEDocType}{CMPE}
-
+	\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
 	\renewcommand{\maketitle}{%
 	\vspace*{2.5cm}
 
